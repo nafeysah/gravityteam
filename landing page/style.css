@@ -1,0 +1,331 @@
+body,html{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    margin: 30px;
+}
+.web{
+    float: right;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    word-spacing: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+  }
+  .main-container{
+    margin: 1px;
+  }
+  .bold{
+    width: 60rem;
+    height: 90px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size:58px;
+    margin: 25px;
+    padding: 20px;
+    line-height: 4rem;
+    
+}
+span{
+    color: aqua;
+}
+.pot{
+   padding:60px; 
+   font-size: 22px;
+   font-weight: 100;
+   width: 29rem;
+   word-spacing: 1rem;
+   line-height: 2rem;
+}
+.wide{
+    max-width: 100%;
+}
+.fabs{
+    background-color:#070914;   
+    margin-top: 3rem;
+    height: auto;
+}
+.beside{
+    display: flex;
+}
+.pop{
+    width: 45rem;
+    color: white;
+    padding: 4rem;
+    margin-top: 3rem; 
+}
+.pen{
+    font-size: 45px;
+    font-weight: bolder;
+    word-spacing: 4px;
+
+}
+.phone{
+    line-height:2rem;
+    font-size: large;
+    font-weight:lighter ;
+    word-spacing: .5rem;
+}
+button{
+    border-radius: 6px;
+    width: 10rem;
+    align-content: center;
+    text-align: center;
+    height: 3rem;
+    text-transform: uppercase;
+    background-color: aqua;
+    border: none;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.what{
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.side{
+    width:40rem ;
+    margin: 3rem;
+}
+.together{
+    display: flex;
+    margin:  2 1 2 1;
+}
+.brand{
+    width:25rem ;
+    height:25rem ;
+    color: white;
+    background-color: grey;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+}
+.brand h1{
+    font-size: x-large;
+    padding-left:2rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.brand img{
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+.brand p{
+    font-size: large;
+    word-spacing: 5px;
+    line-height: 1rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.brand:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    transition: background-color 1s ease, color 1s ease;
+}
+.ui{
+    width:25rem ;
+    height:25rem ;
+    color: white;
+    background-color: grey;
+    border-radius: 7px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.ui h1{
+    font-size: x-large;
+    padding-left:2rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ui img{
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+.ui p{
+    font-size: large;
+    word-spacing: 5px;
+    line-height: 1rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.ui:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    transition: background-color 1s ease, color 1s ease;
+}
+.beneath{
+    display: flex;
+    margin: 2 1 1 2 ;
+}
+.app{
+    width:25rem ;
+    height:25rem ;
+    color: white;
+    background-color: grey;
+    border-radius: 7px;
+    /* margin-top: .5rem; */
+}
+.app h1{
+    font-size: x-large;
+    padding-left:2rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.app img{
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+.app p{
+    font-size: large;
+    word-spacing: 5px;
+    line-height: 1rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.app:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    transition: background-color 1s ease, color 1s ease;
+}
+.con{
+    width:25rem ;
+    height:25rem ;
+    color: white;
+    background-color: grey;
+    border-radius: 7px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.con h1{
+    font-size: x-large;
+    padding-left:2rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.con img{
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+.con p{
+    font-size: large;
+    word-spacing: 5px;
+    line-height: 1rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.con:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    transition: background-color 1s ease, color 1s ease;
+}
+.below{
+    margin: 3rem;
+}
+.below h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    text-transform: uppercase;
+}
+.below p{
+    color: white;
+    font-weight: 1000;
+    font-size: 50px;
+    width: 60rem;
+}
+.picture-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container{
+    display: flex;
+    margin: 2rem;
+    width: fit-content;
+ }
+.image-container1{
+    display: grid;
+    padding: 1rem;
+    height: 60rem;
+}
+.img-1{
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.img-2{
+    border-radius: 5px;
+}
+.img-3{
+    margin-top: 5rem;
+    border-radius: 5px;
+}
+.img-4{
+    margin-top: 5rem;
+    border-radius: 5px;
+
+}
+.img-5{
+    margin-top: 5rem;
+    border-radius: 5px;
+}
+.image-container2{
+    display: grid;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.label{
+    display: flex;
+    gap: 10px;
+}
+.team-for{
+    display: flex;
+    width: 100%;
+    background-color: #070914;
+}
+.team-container{
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-container img{
+    width:238px;
+    height:334px;
+    margin: 1rem;
+}
+.word-container{
+    width: 40rem;
+    padding: 3rem;
+    margin: 4rem;
+}
+.creators-word{
+    font-size: 53px;
+    font-weight: 1000;
+    color: white;
+}
+.below{
+    font-size: 25px;
+    color: white;
+    margin-left: 4rem;
+}
+.team{
+    text-transform: uppercase;
+    color: aqua;
+
+}
