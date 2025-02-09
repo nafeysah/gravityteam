@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolarinwa Bolanle Nafisat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        div {
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            /* object-fit: cover; */
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: 20px auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div>
+      <section>
+         <h1>Bolarinwa Bolanle Nafisat</h1>
+         <p>I am 24 years old, passionate about front-end development. I am always ready to learn.</p>
+      </section>
+        <img src="images/Pi7_Passport_Photo.jpeg" alt="my profile">
+    </div>
+
+    <!-- External Link -->
+    <p><a href="https://www.google.com" target="_blank">Visit Google</a></p>
+
+    <!-- Internal Page Link -->
+    <p><a href="about.html">Learn More About Me</a></p>
+
+    <!-- Section Link -->
+    <p><a href="#about-me"> About Me Section</a></p>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="message">Messages</label>
+        <textarea id="message" name="message"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Favorite Movies/Hobbies Table -->
+    <h2>My Favorite Movies/Hobbies</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Reason Why I Like It</th>
+        </tr>
+        <tr>
+            <td>Listening to Music</td>
+            <td>It helps me take my mind off things that are bothering me.</td>
+        </tr>
+        <tr>
+            <td>Reading</td>
+            <td>Expands my knowledge and stimulates my imagination.</td>
+        </tr>
+        <tr>
+            <td>Coding</td>
+            <td>Allows me to solve problems and create amazing projects.</td>
+        </tr>
+    </table>
+</body>
+</html>
